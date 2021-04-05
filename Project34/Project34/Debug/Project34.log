@@ -1,0 +1,4 @@
+﻿  test.c
+c:\users\김다희\source\repos\project34\project34\test.c(141): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  Project34.vcxproj -> C:\Users\김다희\source\repos\Project34\Debug\Project34.exe

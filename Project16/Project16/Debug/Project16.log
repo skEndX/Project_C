@@ -1,0 +1,5 @@
+﻿  0924.c
+  test.c
+c:\users\김다희\source\repos\project16\project16\test.c(87): error C2065: 'x': 선언되지 않은 식별자입니다.
+c:\users\김다희\source\repos\project16\project16\test.c(89): error C2065: 'y': 선언되지 않은 식별자입니다.
+  코드를 생성하고 있습니다...

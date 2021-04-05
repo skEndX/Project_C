@@ -1,0 +1,78 @@
+#include<stdio.h>
+
+int shape(char a, char b, char c) {
+	int cnt = 0;
+	if (a / 2 <= c || b / 2 <= c || c < 0)
+	{
+		printf("비정상입력 ");
+		return -1;
+	}
+
+	if (c == 0)
+	{
+		for (int i = 0; i < b; i++)
+		{
+			for (int j = 0; j < a; j++)
+			{
+				printf(" * ");
+			}
+			printf("\n");
+		}
+		return cnt;
+	}
+
+	else if (a>b)
+	{
+		int temp;
+		temp = a;
+		a = b;
+		b = temp;
+	}
+
+	else {
+		for (int i = 0; i < c; i++)
+		{
+			for (int j = 0; j < a; j++)
+			{
+				printf(" * ");
+			}
+			printf("\n");
+		}
+		for (int i = 0; i < b - 2 * c; i++)
+		{
+			for (int m = 0; m < c; m++)
+			{
+				printf(" * ");
+			}
+			for (int j = 0; j < a - 2 * c; j++)
+			{
+				printf(" x ");
+				cnt++;
+			}
+			for (int k = 0; k < c; k++)
+			{
+				printf(" * ");
+			}
+			printf("\n");
+		}
+		for (int i = 0; i < c; i++)
+		{
+			for (int j = 0; j < a; j++)
+			{
+				printf(" * ");
+			}
+			printf("\n");
+		}
+	}
+	return cnt;
+}
+
+int main() {
+	printf("x의 갯수는 %d 이다\n", shape(8, 10, 1));
+	printf("x의 갯수는 %d 이다\n", shape(3, 4, 1));
+	printf("x의 갯수는 %d 이다\n", shape(3, 2, 0));
+
+	/*printf("x의 갯수는 %d 이다\n", shape(3, 4, 2));
+	printf("x의 갯수는 %d 이다\n", shape(5, 5, 3));
+	printf("x의 갯수는 %d 이다\n", shape(3, 2, 2));*/
+}

@@ -1,0 +1,9 @@
+﻿  test_F.c
+c:\users\김다희\source\repos\project24\project24\test_f.c(46): warning C4033: 'putEdge'은(는) 값을 반환해야 합니다.
+c:\users\김다희\source\repos\project24\project24\test_f.c(96): warning C4133: '=': 'int **'과(와) 'node **' 사이의 형식이 호환되지 않습니다.
+c:\users\김다희\source\repos\project24\project24\test_f.c(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\김다희\source\repos\project24\project24\test_f.c(114): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\김다희\source\repos\project24\project24\test_f.c(54): warning C4716: 'putEdge': 값을 반환해야 합니다.
+  Project24.vcxproj -> C:\Users\김다희\source\repos\Project24\Debug\Project24.exe

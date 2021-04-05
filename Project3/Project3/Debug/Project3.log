@@ -1,0 +1,10 @@
+﻿  tree.c
+c:\users\김다희\source\repos\project3\project3\tree.c(44): warning C4033: 'delBST'은(는) 값을 반환해야 합니다.
+c:\users\김다희\source\repos\project3\project3\tree.c(98): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\김다희\source\repos\project3\project3\tree.c(101): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\김다희\source\repos\project3\project3\tree.c(106): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\김다희\source\repos\project3\project3\tree.c(86): warning C4715: 'delBST': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Project3.vcxproj -> C:\Users\김다희\source\repos\Project3\Debug\Project3.exe
